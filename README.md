@@ -18,3 +18,12 @@ classifier = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 2. Emotion Classification Model:
 - The emotion classification model is based on a deep learning architecture using Convolutional Neural Networks(CNNs).
 - Prior to feeding the images into the neural network, we need to preprocess them by resizing and normalizing.
+# Training and Testing the Model 
+1. Training the Model:
+- Open the `train emotion detector.ipynb` notebook.
+- Inside the notebook, you’ll find code for loading the FER 2013 dataset, preprocessing the images, designing the CNN architecture, and training the model.
+- Execute the cells sequentially to train your model.
+2. Testing the Model:
+- Open the `test emotion detector.ipynb` notebook.
+- In this notebook, load the trained model weights (HDF5 file) obtained from the training step.
+- Use test images (or video frames) to evaluate the model’s performance.
