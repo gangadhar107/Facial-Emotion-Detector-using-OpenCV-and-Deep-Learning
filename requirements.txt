@@ -1,0 +1,18 @@
+# Facial Emotion Detection - Requirements
+# Python 3.12.3
+
+# Deep Learning
+tensorflow==2.16.1
+
+# Computer Vision
+opencv-python==4.9.0.80
+
+# Data & Numerical
+numpy==1.26.4
+
+# Evaluation & Metrics
+scikit-learn==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
